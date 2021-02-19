@@ -26,11 +26,12 @@ correct_age = input("Did you enter your age correctly?")
 if correct_age != 'yes':
     age = int(input("Enter your age: "))
     print(f"Updated Age: {age}")
-    
+
+
 # We want to ask the user for their phone number
 
 phone_number = input ("Please put your phone number:")
-
+print(f"You entered {hello}")
  
 # We want to ask the user if they want takeout or delivery
 
